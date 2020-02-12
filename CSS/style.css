@@ -1,0 +1,111 @@
+/* Importing Google fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Raleway:200,400&display=swap");
+
+/* Importing all components file */
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/header.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+@import url("components/testimonials.css");
+
+
+/* General style rule for fonts and colors */
+
+body{
+  margin:0px;
+}
+
+h1 {
+  font-family: 'Libre Baskerville';
+  text-align: center;
+  font-size: 36px;
+  color:#007266;
+}
+
+h2 {
+  font-family: 'Libre Baskerville';
+  text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+  color: #2F2F2F;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-size:24px;
+  font-weight: 200;
+  margin: 8px auto;
+  text-align: center;
+  color: #2F2F2F;
+}
+
+h4 {
+  font-family: 'Raleway';
+  font-size:24px;
+  font-weight: 200;
+  margin: 8px auto;
+  text-align: center;
+  color: #2F2F2F;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  background-color: #F4F4F0;
+  margin:0px;
+  padding:20px;
+}
+
+p {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.video {
+  text-align: center;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 964px) {
+  .video iframe {
+    width: 640px;
+    height: 380px;
+  }
+}
+
+@media (max-width: 700px) {
+  .video iframe {
+    width: 505px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 550px) {
+  .video iframe {
+    width: 354px;
+    height: 180px;
+  }
+}
+
+
+.section-title{
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.centered {
+  text-align: center;
+}

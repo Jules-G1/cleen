@@ -1,0 +1,17 @@
+.sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 477.38px;
+  bottom: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 30px;
+}
+
+.sidebar i {
+  font-size: 40px;
+  color: #F95859;
+}

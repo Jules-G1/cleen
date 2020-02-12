@@ -1,0 +1,102 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+
+@media only screen and (max-width: 964px) {
+  div.cards {
+    display: inline-grid;
+  }
+}
+
+.card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-grid;
+    align-items: center;
+    justify-content: space-around;
+    margin:10px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: #F4F4F0;
+    position: relative;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-family: 'Libre Baskerville';
+    flex-grow: 1;
+    padding-left: 13px;
+    font-size: 16px;
+    font-weight: normal;
+    padding-right: 13px;
+    color: #2F2F2F;
+    margin-bottom: 0px;
+}
+
+.card h4 {
+    font-family: 'Raleway';
+    flex-grow: 1;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-right: 15px;
+    color: #2F2F2F;
+    margin-top: 2px;
+}
+
+.card p{
+    font-family: 'Raleway';
+    flex-grow: 1;
+    padding-left: 16px;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-right: 16px;
+    color: #2F2F2F;
+}
+
+.card a{
+  text-decoration: none;
+  font-size:14px;
+}
+
+.link{
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: bolder;
+  color: #2F2F2F;
+}
+
+#chef {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 30%), url(../../images/chef.jpg);
+  width: 230px;
+  height: 130px;
+  margin-left: 10px;
+  justify-self: center;
+    filter: grayscale(100%);
+}
+
+#marine {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 30%), url(../../images/marine.jpg);
+  width: 230px;
+  height: 130px;
+  margin-left: 10px;
+  justify-self: center;
+    filter: grayscale(100%);
+}
+
+#simon {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 30%), url(../../images/simon.jpg);
+  width: 230px;
+  height: 130px;
+  margin-left: 10px;
+  justify-self: center;
+    filter: grayscale(100%);
+}
+

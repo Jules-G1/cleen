@@ -1,0 +1,33 @@
+.container {
+  width: 960px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+@media (max-width: 964px) {
+  .container{
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .container{
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container{
+    width: 400px;
+  }
+}
+
+.containerimg {
+  width: 30%;
+  height: 180px;
+  object-fit: cover;
+  margin: 20px auto;
+  text-align: center;
+  border: 5px solid #007266;
+}
